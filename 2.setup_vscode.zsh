@@ -10,5 +10,6 @@ code --install-extension ms-python.python --force
 code --install-extension vscode-icons-team.vscode-icons --force
 code --install-extension sdras.night-owl --force
 code --install-extension GrapeCity.gc-excelviewer --force
+code --install-extension mhutchie.git-graph --force
 
 echo "\nbot: finished installing vscode extentions!\n"
