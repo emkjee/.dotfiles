@@ -5,18 +5,18 @@ format = '''
 [└$shlvl─❯ ](bold white)'''
 
 [directory]
-read_only = " "
+read_only = " "
 truncation_length = 3
 truncation_symbol = "…/"
 truncate_to_repo = true
 style = "bold white underline"
 
 [directory.substitutions]
-"Documents" = " "
+"Documents" = "󰈙 "
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
-".dotfiles" = ""
+"Dotfiles" = ""
 
 [python]
 symbol = ""
@@ -25,12 +25,12 @@ format = 'via[ $symbol ($version) (\($virtualenv\) )]($style)'
 version_format = "v${raw}"
 
 [rust]
-symbol = ""
+symbol = ""
 style = "bold #A599E9"
 format = 'via[ $symbol ($version) ]($style)'
 
 [package]
-symbol = ""
+symbol = ""
 style = "bold #B362FF"
 format = 'is[ $symbol $version ]($style)'
 
