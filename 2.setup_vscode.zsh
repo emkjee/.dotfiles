@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 echo "\nbot: create vscode setting symlink!"
-ln -f ~/Dotfiles/code_settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/Dotfiles/code_settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 echo "\nbot: start installing vscode extentions!\n"
 
