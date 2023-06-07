@@ -11,5 +11,6 @@ code --install-extension vscode-icons-team.vscode-icons --force
 code --install-extension sdras.night-owl --force
 code --install-extension GrapeCity.gc-excelviewer --force
 code --install-extension mhutchie.git-graph --force
+code --install-extension ex-codes.pine-script-syntax-highlighter --force
 
 echo "\nbot: finished installing vscode extentions!\n"
