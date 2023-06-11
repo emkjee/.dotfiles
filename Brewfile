@@ -1,4 +1,3 @@
-
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -11,9 +10,11 @@ brew "starship"
 brew "git"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
+brew "python@3.11"
 
 cask "iterm2"
 cask "brave-browser"
 cask "visual-studio-code"
 cask "spotify"
 cask "font-jetbrains-mono-nerd-font"
+cask "google-drive"
