@@ -11,6 +11,7 @@ brew "git"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "python@3.11"
+brew "trash"
 
 cask "iterm2"
 cask "brave-browser"
