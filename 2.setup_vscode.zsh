@@ -12,5 +12,6 @@ code --install-extension sdras.night-owl --force
 code --install-extension GrapeCity.gc-excelviewer --force
 code --install-extension mhutchie.git-graph --force
 code --install-extension ex-codes.pine-script-syntax-highlighter --force
+code --install-extension rust-lang.rust-analyzer --force
 
 echo "\nbot: finished installing vscode extentions!\n"
