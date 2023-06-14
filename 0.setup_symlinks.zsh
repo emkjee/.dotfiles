@@ -20,7 +20,7 @@ ln -sf $HOME/Dotfiles/gitconfig $HOME/.gitconfig; echo "$HOME/.gitconfig created
 if [[ -f "$HOME/.config/helix/config.toml" ]]; then
     cp $HOME/.config/helix/config.toml $HOME/.config/helix/config.toml.bkup
 fi
-ln -sf $HOME/Dotfiles/helix_config.toml $HOME/.config/helix/config.toml; echo "$HOME/helix config created"
+ln -sf $HOME/Dotfiles/helix_config.toml $HOME/.config/helix/config.toml; echo "$HOME/.config/helix/config.toml created"
 
 echo "bot: finished creating symlinks!\n"
 
