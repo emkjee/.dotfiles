@@ -24,4 +24,5 @@ typeset -U path
 path=(
   $path
   "$HOME/.cargo/bin"
+  "$HOME/Library/Python/3.11/bin"
 )
