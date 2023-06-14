@@ -1,0 +1,24 @@
+
+theme="base16_transparent"
+
+[editor]
+line-number = "absolute"
+bufferline = "multiple"
+color-modes = true
+cursorline = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "total-line-numbers", "version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
