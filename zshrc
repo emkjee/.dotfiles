@@ -7,7 +7,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 #<<<homebrew setups
 
 #>>>setup starship
-export STARSHIP_CONFIG=~/Dotfiles/starship.toml
+export STARSHIP_CONFIG=$HOME/Dotfiles/starship.toml
 eval "$(starship init zsh)"
 #<<<setup starship
 
@@ -24,3 +24,8 @@ alias rm='trash'
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #<<<zsh plugins
+
+#>>>python
+export JUPYTER_CONFIG_DIR="$HOME/.config/jupyter"
+export IPYTHONDIR="$HOME/.config/ipython"
+#<<<python
