@@ -26,7 +26,8 @@ version_format = "v${raw}"
 
 [rust]
 symbol = ""
-style = "bold #A599E9"
+#style = "bold #A599E9"
+style = "bold #FCA17D"
 format = 'via[ $symbol ($version) ]($style)'
 
 [package]
