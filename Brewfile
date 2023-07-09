@@ -1,7 +1,7 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
+#tap "homebrew/cask" Untapped on 8th July 2023 as per homebrew's recommendation
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
+#tap "homebrew/core" Untapped on 8th July 2023 as per homebrew's recommendation
 
 brew "helix"
 brew "exa"
