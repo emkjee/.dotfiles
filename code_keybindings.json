@@ -1,0 +1,39 @@
+[
+    {
+        "key": "ctrl+shift+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "deleteAllLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.transformToUppercase"
+    }
+]
