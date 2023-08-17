@@ -28,5 +28,7 @@ code --install-extension ms-vscode-remote.remote-ssh --force
 code --install-extension miguelsolorio.fluent-icons --force
 code --install-extension ms-python.black-formatter --force
 code --install-extension BriteSnow.vscode-toggle-quotes --force
+code --install-extension Percy.vscode-pydata-viewer --force
+code --install-extension pepri.subtitles-editor --force
 
 echo "\nbot: finished installing vscode extentions!\n"
