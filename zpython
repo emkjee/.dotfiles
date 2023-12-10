@@ -1,0 +1,31 @@
+OLD_PATH=$PATH
+
+function display_python() {
+     python3 -m site
+}
+
+function refresh_python3.11(){
+    export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${OLD_PATH}"
+    export PATH="$(python3 -m site --user-base)/bin:$PATH"
+}
+
+function refresh_python3.12(){
+    export PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${OLD_PATH}"
+    export PATH="$(python3 -m site --user-base)/bin:$PATH"
+}
+
+
+function activate_python3.11() {
+    export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+    export PATH="$(python3 -m site --user-base)/bin:$PATH"
+}
+
+function activate_python3.12() {
+    export PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+    export PATH="$(python3 -m site --user-base)/bin:$PATH"
+}
+
+function activate_current() {
+    export PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
+    export PATH="$(python3 -m site --user-base)/bin:$PATH"
+}
