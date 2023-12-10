@@ -1,0 +1,65 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.renderWhitespace": "boundary",
+  "editor.find.addExtraSpaceOnTop": false,
+
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line-thin",
+
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 15,
+
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "[plaintext]": {
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.formatOnSave": false
+  },
+
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "python.autoComplete.extraPaths": [],
+  "python.analysis.extraPaths": [],
+  "python.analysis.autoImportCompletions": true,
+  "jupyter.askForKernelRestart": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.env.osx": {
+    "PATH": ""
+  },
+  "python.defaultInterpreterPath": "",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "window.zoomLevel": 1
+}
