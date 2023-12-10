@@ -1,0 +1,43 @@
+"map leader
+let mapleader=" "
+
+"plugins
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+
+"common settings
+set showmode
+set showcmd
+set so=9
+set nu
+set rnu
+set ignorecase smartcase
+set incsearch
+set hlsearch
+nnoremap <leader><leader> :noh<CR>
+set visualbell
+set clipboard^=unnamed,unnamed
+
+"Yank Commands
+nnoremap Y y$
+nnoremap <leader>aa "0p
+nnoremap <leader>bb "0P
+
+"find Commands
+nmap <leader>fu <Action>(FindUsages)
+nmap <leader>ff <Action>(GotoFile)
+nmap <leader>fa <Action>(GotoAction)
+
+"Navigate Tabs
+nmap <leader>p <Action>(PreviousTab)
+nmap <leader>n <Action>(NextTab)
+
+"Run Commands
+nmap <leader>rr <Action>(Run)
+nmap <leader>rc <Action>(RunConfiguration)
+nmap <leader>rf <Action>(ReformatCode)
+
+"NERDTree Settings
+set NERDTree
+nnoremap <leader>e :NERDTreeFocus<CR>
