@@ -1,0 +1,7 @@
+[user]
+	name = emkjee
+	email = 123936268+emkjee@users.noreply.github.com
+[core]
+	editor = nvim
+[credential]
+	helper = store

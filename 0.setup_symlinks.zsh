@@ -12,6 +12,27 @@ if [[ -f "$HOME/.zshrc" ]]; then
 fi
 ln -sf $HOME/Dotfiles/zshrc $HOME/.zshrc; echo "$HOME/.zshrc created"
 
+if [[ -f "$HOME/.zlogin" ]]; then
+    cp $HOME/.zlogin $HOME/.zlogin.bkup-$(date +%F)
+fi
+ln -sf $HOME/Dotfiles/zlogin $HOME/.zlogin; echo "$HOME/.zlogin created"
+
+
+if [[ -f "$HOME/.vimrc" ]]; then
+    cp $HOME/.vimrc $HOME/.vimrc.bkup-$(date +%F)
+fi
+ln -sf $HOME/Dotfiles/vimrc $HOME/.vimrc; echo "$HOME/.vimrc created"
+
+if [[ -f "$HOME/.zprofile" ]]; then
+    cp $HOME/.zshrc $HOME/.zprofile.bkup-$(date +%F)
+fi
+ln -sf $HOME/Dotfiles/zprofile $HOME/.zprofile; echo "$HOME/.zprofile created"
+
+if [[ -f "$HOME/.ideavimrc" ]]; then
+    cp $HOME/.ideavimrc $HOME/.ideavimrc.bkup-$(date +%F)
+fi
+ln -sf $HOME/Dotfiles/ideavimrc $HOME/.ideavimrc; echo "$HOME/.ideavimrc created"
+
 if [[ -f "$HOME/.gitconfig" ]]; then
     cp $HOME/.gitconfig $HOME/.gitconfig.bkup-$(date +%F)
 fi
