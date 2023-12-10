@@ -1,3 +1,6 @@
+#to disable shell sessions
+SHELL_SESSIONS_DISABLE=1
+
 #functions!
 
 #to check whether the command exists
@@ -15,14 +18,3 @@ function exists() {
 function mkcd () {
   mkdir -p "$@" && cd "$_";
 }
-
-#to disable shell sessions
-SHELL_SESSIONS_DISABLE=1
-
-typeset -U path
-
-path=(
-  $path
-  "$HOME/.cargo/bin"
-  "$HOME/Library/Python/3.11/bin"
-)
