@@ -1,39 +1,67 @@
 [
-    {
-        "key": "ctrl+shift+l",
-        "command": "expandLineSelection",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "cmd+l",
-        "command": "-expandLineSelection",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+x",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+cmd+k",
-        "command": "-editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "deleteAllLeft",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "python.execInTerminal"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "editor.action.transformToLowercase"
-    },
-    {
-        "key": "ctrl+shift+up",
-        "command": "editor.action.transformToUppercase"
-    }
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-workbench.action.chat.clear",
+    "when": "hasChatProvider && inChat"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-notebook.centerActiveCell",
+    "when": "notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "deleteAllLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "python.execInTerminal"
+  },
+  {
+    "key": "ctrl+shift+alt+`",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "alt+f",
+    "command": "cursorWordStartRight"
+  },
+  {
+    "key": "shift+ctrl+n",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+ctrl+p",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  }
 ]
