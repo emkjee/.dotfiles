@@ -13,12 +13,24 @@ eval "$(starship init zsh)"
 
 #>>>alias
 alias ls='exa -laFh --git --icons'
-alias ll='exa -laFh --git --icons'
+alias ll='exa -laFh --git --icons --ignore-glob="*gmail.com*"'
+alias lla='exa -laRFh --git --icons' #for ignoring files / dirs use --ignore-glob
 alias exa='exa -laFh --git --icons'
 alias list='exa -laFh --git --icons'
 alias trail='<<<${(F)path}'
 alias rm='trash'
-alias e="hx"
+alias e="nvim"
+#alias cd="z"
+alias fn="gfind"
+alias sqlite3=$(brew --prefix)/opt/sqlite/bin/sqlite3
+alias start_mongo="brew services start mongodb-community"
+alias stop_mongo="brew services stop mongodb-community"
+alias start_mongod="mongod --config /usr/local/etc/mongod.conf --fork"
+alias list_services="brew services list"
+alias scratch="cd $HOME/python_projects/scratch; pipenv shell"
+alias pyscratch="scratch"
+alias zconfig="nvim ~/.zshrc"
+alias zidea="nvim ~/.ideavimrc"
 #<<<alias
 
 #>>>zsh plugins
@@ -41,4 +53,17 @@ export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 export FZF_CTRL_T_OPTS="
   --preview 'bat -n --color=always {}'
   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
-#>>>setup fzf
+#<<<setup fzf
+
+#>>>setup findutils
+#export PATH="$PATH:/usr/local/opt/findutils/libexec/gnubin"
+#<<<setup findutils
+#export PATH="$(brew --prefix)/opt/python@3.12/libexec/bin:$PATH"
+#activate_current
+#export PATH="$(python3 -m site --user-base)/bin:$PATH"
+
+# Created by `pipx` on 2023-11-01 03:25:05
+export PATH="$PATH:/Users/emkjee/.local/bin"
+export PATH="$PATH:/Users/emkjee/.cargo/bin"
+
+
